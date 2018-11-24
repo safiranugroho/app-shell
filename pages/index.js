@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-import { default as GlobalStyle } from '../components/global';
+import { default as GlobalStyle } from './components/global';
 import {
   Provider,
   Hide,
