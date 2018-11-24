@@ -4,8 +4,8 @@ import {
   Heading,
 } from 'rebass';
 
-import GlobalStyle from './components/global';
-import Theme from './components/theme';
+import GlobalStyle from './utils/global';
+import Theme from './utils/theme';
 import Page from './components/Page';
 
 const Docs = () => (
