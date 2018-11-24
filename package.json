@@ -1,9 +1,11 @@
 {
   "name": "rebass-spike",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "dev": "next src",
+    "build": "next build src",
+    "start": "next start src",
+    "deploy": "now && now alias",
+    "now-build": "next build src && next export src -o dist"
   },
   "dependencies": {
     "next": "^7.0.2",
@@ -11,5 +13,8 @@
     "react-dom": "^16.6.3",
     "rebass": "^2.3.4",
     "styled-components": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.8.0"
   }
 }
