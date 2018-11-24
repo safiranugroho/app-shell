@@ -1,5 +1,5 @@
 {
-  "name": "rebass-spike",
+  "name": "rebass",
   "scripts": {
     "dev": "next",
     "build": "next build",

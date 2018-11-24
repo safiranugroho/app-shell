@@ -25,9 +25,9 @@ const Sidebar = ({ isOpen, toggleSidebar }) => (
       <Image src={Close} ml='auto' width={50} m={4} />
     </Fixed>
     <Relative>
-      <Heading color='primary' fontSize={8} px={4} py={3} mb={4}>Menu</Heading>
-      <Link href='/about'><Text fontSize={[2, 7, 6, 5, 3]} px={4} py={3}>About</Text></Link>
-      <Link href='/docs'><Text fontSize={[2, 7, 6, 5, 3]} px={4} py={3}>Docs</Text></Link>
+      <Heading color='primary' fontSize={6} px={4} py={3} mb={4}>Menu</Heading>
+      <Link href='/about'><Text fontSize={6} px={4} py={3}>About</Text></Link>
+      <Link href='/docs'><Text fontSize={6} px={4} py={3}>Docs</Text></Link>
     </Relative>
   </Drawer>
 );
