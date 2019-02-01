@@ -1,4 +1,4 @@
-# Responsive app shell developed using Next.js, deployed using Now
+# Next.js x Now app shell
 
 http://app-shell.now.sh/
 
