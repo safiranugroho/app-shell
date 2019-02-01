@@ -4,9 +4,9 @@ import {
   Heading,
 } from 'rebass';
 
-import GlobalStyle from './utils/global';
-import Theme from './utils/theme';
-import Page from './components/Page';
+import GlobalStyle from '../utils/global';
+import Theme from '../utils/theme';
+import Page from '../components/Page';
 
 const Docs = () => (
   <Provider theme={Theme}>

@@ -1,7 +1,7 @@
 const Theme = {
   colors: {
-    primary: '#7226e0',
-    secondary: '#fb9126',
+    primary: '#a53835',
+    secondary: '#6D859C',
   },
   minHeights: [
     48,

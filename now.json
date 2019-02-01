@@ -1,5 +1,5 @@
 {
-  "name": "rebass",
+  "name": "app-shell",
   "version": 2,
   "builds": [
     {
@@ -19,6 +19,6 @@
     }
   ],
   "alias": [
-    "rebass-spike"
+    "app-shell"
   ]
 }

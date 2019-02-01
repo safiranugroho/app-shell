@@ -27,7 +27,7 @@ class Page extends Component {
       <Fragment>
         <Header toggleSidebar={this.toggleSidebar} />
         <Sidebar isOpen={this.state.sidebar} toggleSidebar={this.toggleSidebar} />
-        <Container px={4} py={3} bg='lightgray' maxWidth='undefined'>
+        <Container px={4} py={3} maxWidth='undefined'>
           {this.props.children}
         </Container>
       </Fragment>
